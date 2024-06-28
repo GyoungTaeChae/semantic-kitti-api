@@ -166,6 +166,12 @@ if __name__ == '__main__':
   # check that I have the same number of files
   # print("labels: ", len(label_names))
   # print("predictions: ", len(pred_names))
+  print("#################")
+  print(len(label_names)) 
+  print(len(pred_names))
+  print("#################")
+  
+
   assert(len(label_names) == len(pred_names))
 
   progress = 10
